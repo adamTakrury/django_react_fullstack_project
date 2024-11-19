@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.show-products-nav {
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #282c34;
+}
+
+.add-product-nav {
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #282c34;
+}
+.products-card-info {
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+  padding: 2px;
+}
+
+@media (max-width: 800px) {
+  .products-card-info {
+      flex-direction: column;
+  }
+}
+
+
+
+.single-product-info {
+  font-style: italic;
+  font-size: 25px;
+  font-weight: 400;
+  color: #282c34;
+  text-decoration: #282c34;
+  margin: 15px;
+  padding: 5px;
+
+}
+.product-price-info {
+  font-size: 20px;
+  font-weight: 500;
+  color: green;
+  font-style: italic;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.product-category-info
+{
+  font-size: 18px;
+  font-weight: 600;
+  color: blue;
+  font-style: italic;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+  
